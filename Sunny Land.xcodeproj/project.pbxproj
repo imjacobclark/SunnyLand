@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6551D8235CBE9F00AC4276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6551D7235CBE9F00AC4276 /* AppDelegate.swift */; };
+		EE6551DA235CBE9F00AC4276 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE6551D9235CBE9F00AC4276 /* GameScene.sks */; };
+		EE6551DC235CBE9F00AC4276 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE6551DB235CBE9F00AC4276 /* Actions.sks */; };
+		EE6551DE235CBE9F00AC4276 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6551DD235CBE9F00AC4276 /* GameScene.swift */; };
+		EE6551E0235CBE9F00AC4276 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6551DF235CBE9F00AC4276 /* GameViewController.swift */; };
+		EE6551E3235CBE9F00AC4276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6551E1235CBE9F00AC4276 /* Main.storyboard */; };
+		EE6551E5235CBEA000AC4276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6551E4235CBEA000AC4276 /* Assets.xcassets */; };
+		EE6551E8235CBEA000AC4276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6551E6235CBEA000AC4276 /* LaunchScreen.storyboard */; };
+		EE6551F3235CBEA000AC4276 /* Sunny_LandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6551F2235CBEA000AC4276 /* Sunny_LandTests.swift */; };
+		EE6551FE235CBEA000AC4276 /* Sunny_LandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6551FD235CBEA000AC4276 /* Sunny_LandUITests.swift */; };
+		EE65520E235CC86000AC4276 /* idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EE65520D235CC86000AC4276 /* idle.atlas */; };
+		EE6E6452235CCEBF00567153 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EE6E6451235CCEBF00567153 /* run.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6551EF235CBEA000AC4276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6551CC235CBE9F00AC4276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6551D3235CBE9F00AC4276;
+			remoteInfo = "Sunny Land";
+		};
+		EE6551FA235CBEA000AC4276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6551CC235CBE9F00AC4276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6551D3235CBE9F00AC4276;
+			remoteInfo = "Sunny Land";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE6551D4235CBE9F00AC4276 /* Sunny Land.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunny Land.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6551D7235CBE9F00AC4276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6551D9235CBE9F00AC4276 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EE6551DB235CBE9F00AC4276 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EE6551DD235CBE9F00AC4276 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EE6551DF235CBE9F00AC4276 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EE6551E2235CBE9F00AC4276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6551E4235CBEA000AC4276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6551E7235CBEA000AC4276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6551E9235CBEA000AC4276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6551EE235CBEA000AC4276 /* Sunny LandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunny LandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6551F2235CBEA000AC4276 /* Sunny_LandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunny_LandTests.swift; sourceTree = "<group>"; };
+		EE6551F4235CBEA000AC4276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6551F9235CBEA000AC4276 /* Sunny LandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunny LandUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6551FD235CBEA000AC4276 /* Sunny_LandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunny_LandUITests.swift; sourceTree = "<group>"; };
+		EE6551FF235CBEA000AC4276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE65520D235CC86000AC4276 /* idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = idle.atlas; path = "../../../Downloads/Sunny-land-files/PNG/sprites/player/idle.atlas"; sourceTree = "<group>"; };
+		EE6E6451235CCEBF00567153 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = run.atlas; path = "../../../Downloads/Sunny-land-files/PNG/sprites/player/run.atlas"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6551D1235CBE9F00AC4276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6551EB235CBEA000AC4276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6551F6235CBEA000AC4276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6551CB235CBE9F00AC4276 = {
+			isa = PBXGroup;
+			children = (
+				EE6551D6235CBE9F00AC4276 /* Sunny Land */,
+				EE6551F1235CBEA000AC4276 /* Sunny LandTests */,
+				EE6551FC235CBEA000AC4276 /* Sunny LandUITests */,
+				EE6551D5235CBE9F00AC4276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6551D5235CBE9F00AC4276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6551D4235CBE9F00AC4276 /* Sunny Land.app */,
+				EE6551EE235CBEA000AC4276 /* Sunny LandTests.xctest */,
+				EE6551F9235CBEA000AC4276 /* Sunny LandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6551D6235CBE9F00AC4276 /* Sunny Land */ = {
+			isa = PBXGroup;
+			children = (
+				EE6E6451235CCEBF00567153 /* run.atlas */,
+				EE65520D235CC86000AC4276 /* idle.atlas */,
+				EE6551D7235CBE9F00AC4276 /* AppDelegate.swift */,
+				EE6551D9235CBE9F00AC4276 /* GameScene.sks */,
+				EE6551DB235CBE9F00AC4276 /* Actions.sks */,
+				EE6551DD235CBE9F00AC4276 /* GameScene.swift */,
+				EE6551DF235CBE9F00AC4276 /* GameViewController.swift */,
+				EE6551E1235CBE9F00AC4276 /* Main.storyboard */,
+				EE6551E4235CBEA000AC4276 /* Assets.xcassets */,
+				EE6551E6235CBEA000AC4276 /* LaunchScreen.storyboard */,
+				EE6551E9235CBEA000AC4276 /* Info.plist */,
+			);
+			path = "Sunny Land";
+			sourceTree = "<group>";
+		};
+		EE6551F1235CBEA000AC4276 /* Sunny LandTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6551F2235CBEA000AC4276 /* Sunny_LandTests.swift */,
+				EE6551F4235CBEA000AC4276 /* Info.plist */,
+			);
+			path = "Sunny LandTests";
+			sourceTree = "<group>";
+		};
+		EE6551FC235CBEA000AC4276 /* Sunny LandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6551FD235CBEA000AC4276 /* Sunny_LandUITests.swift */,
+				EE6551FF235CBEA000AC4276 /* Info.plist */,
+			);
+			path = "Sunny LandUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6551D3235CBE9F00AC4276 /* Sunny Land */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE655202235CBEA000AC4276 /* Build configuration list for PBXNativeTarget "Sunny Land" */;
+			buildPhases = (
+				EE6551D0235CBE9F00AC4276 /* Sources */,
+				EE6551D1235CBE9F00AC4276 /* Frameworks */,
+				EE6551D2235CBE9F00AC4276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sunny Land";
+			productName = "Sunny Land";
+			productReference = EE6551D4235CBE9F00AC4276 /* Sunny Land.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6551ED235CBEA000AC4276 /* Sunny LandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE655205235CBEA000AC4276 /* Build configuration list for PBXNativeTarget "Sunny LandTests" */;
+			buildPhases = (
+				EE6551EA235CBEA000AC4276 /* Sources */,
+				EE6551EB235CBEA000AC4276 /* Frameworks */,
+				EE6551EC235CBEA000AC4276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6551F0235CBEA000AC4276 /* PBXTargetDependency */,
+			);
+			name = "Sunny LandTests";
+			productName = "Sunny LandTests";
+			productReference = EE6551EE235CBEA000AC4276 /* Sunny LandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6551F8235CBEA000AC4276 /* Sunny LandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE655208235CBEA000AC4276 /* Build configuration list for PBXNativeTarget "Sunny LandUITests" */;
+			buildPhases = (
+				EE6551F5235CBEA000AC4276 /* Sources */,
+				EE6551F6235CBEA000AC4276 /* Frameworks */,
+				EE6551F7235CBEA000AC4276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6551FB235CBEA000AC4276 /* PBXTargetDependency */,
+			);
+			name = "Sunny LandUITests";
+			productName = "Sunny LandUITests";
+			productReference = EE6551F9235CBEA000AC4276 /* Sunny LandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6551CC235CBE9F00AC4276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jacob Clark";
+				TargetAttributes = {
+					EE6551D3235CBE9F00AC4276 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EE6551ED235CBEA000AC4276 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EE6551D3235CBE9F00AC4276;
+					};
+					EE6551F8235CBEA000AC4276 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EE6551D3235CBE9F00AC4276;
+					};
+				};
+			};
+			buildConfigurationList = EE6551CF235CBE9F00AC4276 /* Build configuration list for PBXProject "Sunny Land" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6551CB235CBE9F00AC4276;
+			productRefGroup = EE6551D5235CBE9F00AC4276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6551D3235CBE9F00AC4276 /* Sunny Land */,
+				EE6551ED235CBEA000AC4276 /* Sunny LandTests */,
+				EE6551F8235CBEA000AC4276 /* Sunny LandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6551D2235CBE9F00AC4276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6551E3235CBE9F00AC4276 /* Main.storyboard in Resources */,
+				EE6551DA235CBE9F00AC4276 /* GameScene.sks in Resources */,
+				EE6551E5235CBEA000AC4276 /* Assets.xcassets in Resources */,
+				EE65520E235CC86000AC4276 /* idle.atlas in Resources */,
+				EE6551E8235CBEA000AC4276 /* LaunchScreen.storyboard in Resources */,
+				EE6551DC235CBE9F00AC4276 /* Actions.sks in Resources */,
+				EE6E6452235CCEBF00567153 /* run.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6551EC235CBEA000AC4276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6551F7235CBEA000AC4276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6551D0235CBE9F00AC4276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6551DE235CBE9F00AC4276 /* GameScene.swift in Sources */,
+				EE6551E0235CBE9F00AC4276 /* GameViewController.swift in Sources */,
+				EE6551D8235CBE9F00AC4276 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6551EA235CBEA000AC4276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6551F3235CBEA000AC4276 /* Sunny_LandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6551F5235CBEA000AC4276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6551FE235CBEA000AC4276 /* Sunny_LandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6551F0235CBEA000AC4276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6551D3235CBE9F00AC4276 /* Sunny Land */;
+			targetProxy = EE6551EF235CBEA000AC4276 /* PBXContainerItemProxy */;
+		};
+		EE6551FB235CBEA000AC4276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6551D3235CBE9F00AC4276 /* Sunny Land */;
+			targetProxy = EE6551FA235CBEA000AC4276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE6551E1235CBE9F00AC4276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6551E2235CBE9F00AC4276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6551E6235CBEA000AC4276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6551E7235CBEA000AC4276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE655200235CBEA000AC4276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE655201235CBEA000AC4276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE655203235CBEA000AC4276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7X27QY544;
+				INFOPLIST_FILE = "Sunny Land/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jacobclark.Sunny-Land";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE655204235CBEA000AC4276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7X27QY544;
+				INFOPLIST_FILE = "Sunny Land/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jacobclark.Sunny-Land";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE655206235CBEA000AC4276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7X27QY544;
+				INFOPLIST_FILE = "Sunny LandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jacobclark.Sunny-LandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunny Land.app/Sunny Land";
+			};
+			name = Debug;
+		};
+		EE655207235CBEA000AC4276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7X27QY544;
+				INFOPLIST_FILE = "Sunny LandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jacobclark.Sunny-LandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunny Land.app/Sunny Land";
+			};
+			name = Release;
+		};
+		EE655209235CBEA000AC4276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7X27QY544;
+				INFOPLIST_FILE = "Sunny LandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jacobclark.Sunny-LandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sunny Land";
+			};
+			name = Debug;
+		};
+		EE65520A235CBEA000AC4276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7X27QY544;
+				INFOPLIST_FILE = "Sunny LandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jacobclark.Sunny-LandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sunny Land";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6551CF235CBE9F00AC4276 /* Build configuration list for PBXProject "Sunny Land" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE655200235CBEA000AC4276 /* Debug */,
+				EE655201235CBEA000AC4276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE655202235CBEA000AC4276 /* Build configuration list for PBXNativeTarget "Sunny Land" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE655203235CBEA000AC4276 /* Debug */,
+				EE655204235CBEA000AC4276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE655205235CBEA000AC4276 /* Build configuration list for PBXNativeTarget "Sunny LandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE655206235CBEA000AC4276 /* Debug */,
+				EE655207235CBEA000AC4276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE655208235CBEA000AC4276 /* Build configuration list for PBXNativeTarget "Sunny LandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE655209235CBEA000AC4276 /* Debug */,
+				EE65520A235CBEA000AC4276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6551CC235CBE9F00AC4276 /* Project object */;
+}
