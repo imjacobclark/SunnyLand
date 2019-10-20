@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE6122BA235CE90B000DDFE7 /* idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EE6122B9235CE90B000DDFE7 /* idle.atlas */; };
-		EE6122BC235CE91C000DDFE7 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EE6122BB235CE91C000DDFE7 /* run.atlas */; };
+		EE6122BE235CE970000DDFE7 /* idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EE6122BD235CE970000DDFE7 /* idle.atlas */; };
+		EE6122C0235CE983000DDFE7 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EE6122BF235CE983000DDFE7 /* run.atlas */; };
 		EE6551D8235CBE9F00AC4276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6551D7235CBE9F00AC4276 /* AppDelegate.swift */; };
 		EE6551DA235CBE9F00AC4276 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE6551D9235CBE9F00AC4276 /* GameScene.sks */; };
 		EE6551DC235CBE9F00AC4276 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE6551DB235CBE9F00AC4276 /* Actions.sks */; };
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE6122B9235CE90B000DDFE7 /* idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = idle.atlas; path = sprites/player/idle.atlas; sourceTree = "<group>"; };
-		EE6122BB235CE91C000DDFE7 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = run.atlas; path = sprites/player/run.atlas; sourceTree = "<group>"; };
+		EE6122BD235CE970000DDFE7 /* idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = idle.atlas; path = sprites/player/idle.atlas; sourceTree = "<group>"; };
+		EE6122BF235CE983000DDFE7 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = run.atlas; path = sprites/player/run.atlas; sourceTree = "<group>"; };
 		EE6551D4235CBE9F00AC4276 /* Sunny Land.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunny Land.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6551D7235CBE9F00AC4276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE6551D9235CBE9F00AC4276 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		EE6551D6235CBE9F00AC4276 /* Sunny Land */ = {
 			isa = PBXGroup;
 			children = (
-				EE6122B9235CE90B000DDFE7 /* idle.atlas */,
-				EE6122BB235CE91C000DDFE7 /* run.atlas */,
+				EE6122BD235CE970000DDFE7 /* idle.atlas */,
 				EE6551D7235CBE9F00AC4276 /* AppDelegate.swift */,
+				EE6122BF235CE983000DDFE7 /* run.atlas */,
 				EE6551D9235CBE9F00AC4276 /* GameScene.sks */,
 				EE6551DB235CBE9F00AC4276 /* Actions.sks */,
 				EE6551DD235CBE9F00AC4276 /* GameScene.swift */,
@@ -247,10 +247,10 @@
 				EE6551E3235CBE9F00AC4276 /* Main.storyboard in Resources */,
 				EE6551DA235CBE9F00AC4276 /* GameScene.sks in Resources */,
 				EE6551E5235CBEA000AC4276 /* Assets.xcassets in Resources */,
-				EE6122BA235CE90B000DDFE7 /* idle.atlas in Resources */,
+				EE6122BE235CE970000DDFE7 /* idle.atlas in Resources */,
 				EE6551E8235CBEA000AC4276 /* LaunchScreen.storyboard in Resources */,
 				EE6551DC235CBE9F00AC4276 /* Actions.sks in Resources */,
-				EE6122BC235CE91C000DDFE7 /* run.atlas in Resources */,
+				EE6122C0235CE983000DDFE7 /* run.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
